@@ -8,3 +8,7 @@ print("a + b = {}".format(add(a, b)))
 print("a - b = {}".format(sub(a, b)))
 print("a * b = {}".format(mul(a, b)))
 print("a / b = {}".format(div(a, b)))
+
+
+if __name__ == "__main__":
+    main()
