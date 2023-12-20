@@ -44,7 +44,7 @@ class Square:
             float or int: The area of the square.
         """
         return self.__size ** 2
-    
+
     def __eq__(self, other):
         """Equality comparison based on square area."""
         if isinstance(other, Square):
